@@ -74,9 +74,9 @@ h1 {
 	background-color: aqua;
 	border: none;
 	border-radius: 20px;
-	margin-top: 10px;
+	margin-top: 40px;
 	cursor: pointer;
-    box-shadow: 1px 3px 11p#33E9BF;
+    box-shadow: 1px 3px 11px#33E9BF;
 }
 
 .dowload-cv:hover{
@@ -84,6 +84,9 @@ h1 {
 	background-color: #fff;
 
 }
+.info-content p{
+	margin-top: 10px;
+} 
 
 .main img {
 		
