@@ -18,6 +18,8 @@ body {
 	display: flex;
 	justify-content: space-between;
 	padding: 2em;
+	position: relative;
+	z-index: 99;
 
 }
 
@@ -25,7 +27,11 @@ body {
 	margin-top: -7px;
 }
 .brand span{
-	color: #33E9BF;
+	background: #33E9BF;
+	background:#33E9BF;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;;
+	margin-left: ;
 }
 
 .menu{
@@ -53,8 +59,10 @@ body {
 /*Inicio del estilo de la parte principal*/
 
 .main{
-	margin-left: 40px;
-	widows: 80vw;
+	position: relative;
+	z-index: 200;
+	margin: auto;
+	width: 100vw;
 	height: 80vh;
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
@@ -66,12 +74,14 @@ h1 {
 }
 
 .info-content span{
-	color: #33E9Bf;
+	background: linear-gradient(180deg,#128FD1,#33E9BF);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
 }
 
-.dowload-cv {
+.dowload-cv { 
 	padding: 10px 20px;
-	background-color: aqua;
+	background: #33E9BF;
 	border: none;
 	border-radius: 20px;
 	margin-top: 40px;
@@ -89,11 +99,25 @@ h1 {
 	font-size: 2em;
 } 
 
+.info-content {
+	margin: auto;
+	position: relative;
+}
+
 .main img {
-	width: 350px;
-	height: 620px;
-	padding: 3px;
+	background:linear-gradient(10deg,#33E9BF,#007cf0);;
+	width: 450px;
+	height: 720px;
 	border: 7px solid #33E9BF;
 	border-radius: 12px 52px 22px 100px;
 
 }
+
+/*codigo de particulas*/
+#particles-js {
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+}
+/*codigo de particulas*/
