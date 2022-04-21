@@ -86,8 +86,14 @@ h1 {
 }
 .info-content p{
 	margin-top: 10px;
+	font-size: 2em;
 } 
 
 .main img {
-		
+	width: 350px;
+	height: 620px;
+	padding: 3px;
+	border: 7px solid #33E9BF;
+	border-radius: 12px 52px 22px 100px;
+
 }
