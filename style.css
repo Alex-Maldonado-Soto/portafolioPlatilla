@@ -73,10 +73,13 @@ body {
 	align-items: center;
 }
 .divider-portada {
-	height: 8px;
-	width: 340px;
-	background-color: #33E9BF;
-	border-radius: 100%:
+	width: 450px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 5px ;
+	background:linear-gradient(10deg,#33E9BF,#007cf0);;
+	border-radius: 20px;
+
 	
 }
 
@@ -115,12 +118,13 @@ h1 {
 }
 
 .main img {
+	background: #33E9BF;	
 	background:linear-gradient(10deg,#33E9BF,#007cf0);;
-	width: 450px;
+	width: 550px;
 	height: 720px;
-	border: 7px solid #33E9BF;
-	border-radius: 12px 52px 22px 100px;
-
+	padding: 7px;
+	border-color: 7px solid #33E9BF;
+	border-radius: 12px 52px 22px 100px ;
 }
 
 /*codigo de particulas*/
@@ -158,6 +162,11 @@ h1 {
 .divider {
 	height: 4px;
 	width: 80px;
-	background-color: #33E9Bf;
+	background: linear-gradient(180deg,#128FD1,#33E9BF);
 	margin: 10px  0px 2.5em 0px;
+}
+.url-oeg {
+	background: linear-gradient(180deg,#128FD1,#33E9BF);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
 }
