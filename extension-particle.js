@@ -56,7 +56,7 @@ particlesJS(
     "move": {
       "enable": true,
       "speed": 6,
-      "direction": "none",
+      "direction": "top-right",
       "random": false,
       "straight": false,
       "out_mode": "out",
@@ -72,11 +72,11 @@ particlesJS(
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": true,
+        "enable": false,
         "mode": "repulse"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "push"
       },
       "resize": true
