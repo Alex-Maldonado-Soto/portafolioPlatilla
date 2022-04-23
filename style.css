@@ -12,7 +12,7 @@ body {
 	overflow-x: hidden;
 }
 
-.wrapper {
+.wrapper, .portafolio{
 	width: 100vw;
 	height: 100vh;
 	background-color: #191c32;
@@ -73,7 +73,7 @@ body {
 	align-items: center;
 }
 .divider-portada {
-	width: 450px;
+	width: 400px;
 	margin-top: 10px;
 	margin-bottom: 20px;
 	padding: 5px ;
@@ -84,7 +84,7 @@ body {
 }
 
 h1 {
-	font-size: 2.4em;
+	font-size: 2.3em;
 }
 
 .info-content span{
@@ -120,8 +120,8 @@ h1 {
 .main img {
 	background: #33E9BF;	
 	background:linear-gradient(10deg,#33E9BF,#007cf0);;
-	width: 550px;
-	height: 720px;
+	width: 400px;
+	height: 620px;
 	padding: 7px;
 	border-color: 7px solid #33E9BF;
 	border-radius: 12px 52px 22px 100px ;
@@ -138,7 +138,7 @@ h1 {
 
 .about	{
 	background: #fff;
-	position:absolute;
+	position: relative;
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
 	width: 100vw;
@@ -170,3 +170,80 @@ h1 {
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 }
+
+
+.portafolio-headings{
+	width: 100vw;
+	padding: 5em;
+}
+
+.portafolio-headings h2 {
+	font-size: 2.5em;
+}
+
+.portafolio .container {
+	width: 80vw;
+	height: 80vh;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.card {
+	width: 300px;
+	height: 350px;
+	background-color: blue;
+}
+
+.card__img{
+	height: 150px;
+	background-color: #fff;
+}
+
+.card__title {
+	padding: 20px;
+}
+
+.card__proyect-link {
+	display: flex;
+	justify-content: space-evenly;
+}
+	
+.card__proyect-link a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.card__proyect-link i {
+	font-size: 1.5em;
+	font-display: line;
+}
+
+.card .proyect-details {
+	display: flex;
+	margin: 1em;
+	width: 70%
+}
+
+.card .proyect-details a {
+	text-decoration: none;
+	color: #191c32;
+	text-transform: uppercase;
+}
+
+.proyect-details-content {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+
