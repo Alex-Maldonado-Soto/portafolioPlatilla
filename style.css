@@ -15,7 +15,7 @@ body {
 .wrapper, .portafolio{
 	width: 100vw;
 	height: 100vh;
-	background-color: #191c32;
+	background-color: #335DE9;
 	color: #fff;
 }
 .navbar{
@@ -158,7 +158,7 @@ h1 {
 	font-size: 2em;
 	color: #191c32;
 }
-.divider {
+.divider, .divider-portafolio{
 	height: 4px;
 	width: 80px;
 	background: linear-gradient(180deg,#33B8E9,#33E9BF);
@@ -192,7 +192,7 @@ h1 {
 .card {
 	width: 350px;
 	height: 450px;
-	background-color: blue;
+	background-color: #33B8E9;
 	border-radius: 12px 52px 12px 52px;
 }
 
@@ -230,7 +230,7 @@ h1 {
 
 .card .proyect-details a {
 	text-decoration: none;
-	color: #191c32;
+	color: #335DE9;
 	text-transform: uppercase;
 }
 
@@ -248,9 +248,12 @@ h1 {
 	text-align: justify;
 }
 
-
-
-
+.divider-portafolio{
+	width: 200px;
+	height: 7px;
+	border-radius: 52px;
+	background: linear-gradient(180deg,#33B8E9,#33E9BF);
+}
 
 
 
