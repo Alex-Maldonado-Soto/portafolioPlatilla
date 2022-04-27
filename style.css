@@ -185,12 +185,15 @@ h1 {
 }
 
 .portafolio .container {
-	width: 80vw;
+	width: 100vw;
 	height: 80vh;
 	margin: 0 auto;
+	padding: 30px;
 	display: flex;
   justify-content: center;
 	text-align: center;
+	flex-wrap: wrap;
+	overflow: hidden;
 }
 
 .card {
@@ -198,7 +201,7 @@ h1 {
 	height: 450px;
 	background-color: #33B8E9;
 	border-radius: 52px 52px 52px 52px;
-  margin: 0 30px;
+  margin: 30px;
 }
 
 .card__img{
@@ -265,6 +268,34 @@ h1 {
 	background: linear-gradient(180deg,#33B8E9,#33E9BF);
 }
 
+.social-media {
+	display: flex;
+	justify-content: space-between;
+	padding: 2em;
+	position: relative;
+	z-index: 99;
+	background: #33B8E9;
+}
+
+.social-media {
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.links li{
+	list-style: none;
+}
+
+.links a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+.links a:hover{
+	color: #33E9BF;
+	transition: ease-out .7s;
+}
 
 
 
