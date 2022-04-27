@@ -186,14 +186,13 @@ h1 {
 
 .portafolio .container {
 	width: 100vw;
-	height: 80vh;
+	height: 100vh;
 	margin: 0 auto;
 	padding: 30px;
 	display: flex;
   justify-content: center;
 	text-align: center;
 	flex-wrap: wrap;
-	overflow: hidden;
 }
 
 .card {
@@ -271,7 +270,7 @@ h1 {
 .social-media {
 	display: flex;
 	justify-content: space-between;
-	padding: 2em;
+	padding: 30px;
 	position: relative;
 	z-index: 99;
 	background: #33B8E9;
@@ -279,7 +278,7 @@ h1 {
 
 .social-media {
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 1.6em;
 }
 
 .links li{
@@ -289,14 +288,21 @@ h1 {
 .links a {
 	color: #fff;
 	text-decoration: none;
-	padding: 10px 20px;
+	padding: 5px 10px;
 }
 
 .links a:hover{
-	color: #33E9BF;
+	background: linear-gradient(180deg,#fff,#33E9BF);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
 	transition: ease-out .7s;
 }
 
 
-
+@media only screen and (max-width: 735px){
+	.social-media {
+		padding: 19px;
+		font-size: 20px;
+	}
+}
 
