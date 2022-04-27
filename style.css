@@ -6,7 +6,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-/*Navbar todo esl estilo del navbar*/
+/*Navbar todo esl estilo del navr*/
 body {
 	font-family: 'Montserrat', sans-serif;
 	overflow-x: hidden;
@@ -16,15 +16,18 @@ body {
 	width: 100vw;
 	height: 100vh;
 	background-color: #335DE9;
-	color: #fff;
+	color: #fff
 }
 .navbar{
 	display: flex;
 	justify-content: space-between;
-	padding: 2em;
-	position: relative;
-	z-index: 99;
-
+ 	align-items: center;
+	width: 100vw;
+	padding: 0 10px;
+	height: 6vh;
+	z-index: 400;
+	position: fixed;
+	background:#33B8E9
 }
 
 .brand{
@@ -39,7 +42,6 @@ body {
 
 .menu{
 	display: flex;
-	width: 50%;
 	justify-content: space-around;
 }
 
@@ -55,7 +57,11 @@ body {
 
 .menu a:hover{
 	color: #33E9BF;
+	font-size: 1.2em;
+	background-color: #335DE9;
+	margin: 0 20px;
 	transition: ease-out .7s;
+
 }
 
 /*Fin del estilo del navbar*/
@@ -124,6 +130,7 @@ h1 {
 	padding: 7px;
 	border-color: 7px solid #33E9BF;
 	border-radius: 12px 52px 22px 100px ;
+	margin-top: 30px;
 }
 
 /*codigo de particulas*/
@@ -269,6 +276,7 @@ h1 {
 }
 
 .social-media {
+	width: 100vw;
 	display: flex;
 	justify-content: space-between;
 	padding: 2em;
@@ -294,9 +302,78 @@ h1 {
 
 .links a:hover{
 	color: #33E9BF;
+  border-radius: 10px;
+  background-color:#335DE9;
+  	font-size: 1.2em;
+  	margin: 0 20px;
 	transition: ease-out .7s;
 }
 
+.contenedor {
+	width: 90%;
+	min-height: 100vh;
+	min-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
 
+.slider {
+	background-color: #335DE9;
+	padding: 40px 0;
+}
 
+.slider__contenedor {
+	display: grid;
+	grid-template-columns: 50px 1fr 50px;
+	align-items: center;
+	gap: 1em;
+}
 
+.slider__body {
+	grid-column: 2/3;
+	grid-row: 1/2;
+	opacity: 0;
+	pointer-events: none;
+	display: grid;
+	padding: 30px;
+	grid-template-columns: 1fr max-content;
+	align-items: center;
+	transition: opacity 1.5;
+	background: #fff;
+}
+
+.slider__body--show {
+	opacity: 1;
+	pointer-events: unset;
+}
+.slider__text {
+	max-width: 600px;
+}
+
+.subtitle {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+}
+.slider__review {
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 1.7;
+
+}
+
+.slider__img {
+	width: 230px;
+	height: 230px;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+.slider__arrow {
+	cursor: pointer;
+	width: 90%;
+}
+
+.slider__arrow:nth-of-type(2){
+	justify-self: end;
+}
