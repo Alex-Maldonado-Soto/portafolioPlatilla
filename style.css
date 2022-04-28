@@ -322,6 +322,7 @@ ul.slider li:target {
 	text-decoration: none;
 	background-color: #33E9BF;
 	padding-top: 8px;
+	z-index: 2000;
 	width: 45px;
 	height: 42px;
 	font-size: 1.2em;
