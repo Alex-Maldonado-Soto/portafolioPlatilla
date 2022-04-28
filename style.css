@@ -298,7 +298,7 @@ ul.slider li a {
 	width: 100vw;
 }
 ul.slider li:first-child {
-	opacity: 0.1;
+	opacity: 1;
 }
 
 ul.slider li:target {
