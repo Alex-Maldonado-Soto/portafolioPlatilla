@@ -195,13 +195,14 @@ h1 {
 
 .portafolio .container {
 	width: 100vw;
-	height: 100vh;
+	height: 80vh;
 	margin: 0 auto;
 	padding: 30px;
 	display: flex;
   justify-content: center;
 	text-align: center;
 	flex-wrap: wrap;
+	overflow: hidden;
 }
 
 .divider-portafolio{
@@ -310,19 +311,9 @@ ul.slider li:target {
 	padding-bottom: 21px;
 }
 
-<<<<<<< HEAD
 .menu-slider li {
 	display: inline-block;
 	text-align: center;
-=======
-.social-media {
-	display: flex;
-	justify-content: space-between;
-	padding: 30px;
-	position: relative;
-	z-index: 99;
-	background: #33B8E9;
->>>>>>> 9ec35e5cf2c82db2d90b6324c90f10df723bef3e
 }
 
 .menu-slider li a {
@@ -341,7 +332,6 @@ ul.slider li:target {
 .menu-slider a:hover{
 	color: #fff;
 	font-size: 1.6em;
-<<<<<<< HEAD
 	background-color: #33B8E9;
 	margin: 0 20px;
 	transition: ease-out .7s;
@@ -349,8 +339,6 @@ ul.slider li:target {
 .contact-container {
 	background-color: #335DE9;
 	padding: 60px 10px;
-=======
->>>>>>> 9ec35e5cf2c82db2d90b6324c90f10df723bef3e
 }
 
 .form-contact {
@@ -366,7 +354,6 @@ ul.slider li:target {
 	background: #33B8E9;
 	overflow: hidden;
 	color: #fff;
-<<<<<<< HEAD
 }
 
 .head-contact span{
@@ -375,17 +362,6 @@ ul.slider li:target {
 	text-align: center;
 	padding: 2.5rem;
 
-=======
-	text-decoration: none;
-	padding: 5px 10px;
-}
-
-.links a:hover{
-	background: linear-gradient(180deg,#fff,#33E9BF);
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	transition: ease-out .7s;
->>>>>>> 9ec35e5cf2c82db2d90b6324c90f10df723bef3e
 }
 
 .contact {
@@ -413,19 +389,10 @@ ul.slider li:target {
 	color: gray;
 }
 
-<<<<<<< HEAD
 .contact textarea {
 	min-height: 100px;
 }
 
-=======
-@media only screen and (max-width: 735px){
-	.social-media {
-		padding: 19px;
-		font-size: 20px;
-	}
-}
->>>>>>> 9ec35e5cf2c82db2d90b6324c90f10df723bef3e
 
 input[type="submit"] {
 	padding: 10px;
