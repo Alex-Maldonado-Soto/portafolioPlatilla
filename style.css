@@ -139,7 +139,7 @@ h1 {
 #particles-js {
 	width: 100vw;
 	height: 100vh;
-	position: fixed;
+	position: absolute;
 	z-index: 1;
 }
 /*codigo de particulas*/
