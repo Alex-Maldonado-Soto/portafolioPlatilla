@@ -153,9 +153,11 @@ h1 {
 	width: 100vw;
 	z-index: 300;
 	align-items: center;
+	height: 72vh;
 }
 
 .about img{
+	height: 72vh;
 	width: 100%;
 	grid-column: 1/5;
 }
@@ -266,12 +268,19 @@ ul.slider {
 	height: 61vh;
 }
 .descripcion {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
 	margin: 30px auto;
 	width: 80vw;
-	height: 49vh;
+	height: 54vh;
 	padding: 50px;
 	background-color: #335DE9;
+	overflow: hidden;
 }
+.text-slide {
+	grid-column: 1/5;
+}
+
 .descripcion h2{
 	font-size: 2em;
 	color: #f2f2f2;
@@ -294,10 +303,24 @@ ul.slider li {
 	transition: opacity .5s;
 }
 
+.dowload-cv-slider {
+		padding: 10px 20px;
+		background:linear-gradient(10deg,#33E9BF,#33B8E9);;
+		border: none;
+		border-radius: 20px;
+		margin-top: 273px;
+		cursor: pointer;
+		box-shadow: 1px 3px 11px #33E9BF;
+		position: absolute;
+		z-index: 10000;
+}
+
 ul.slider li img {
+	margin-left: 100px;
+	grid-column: 5/10;
 	margin-top: 30px;
 	width: 100%;
-	height: 59%;
+	height: 80%;
 	object-fit: cover;
 }
 ul.slider li a {
@@ -343,7 +366,7 @@ ul.slider li:target {
 	transition: ease-out .7s;
 }
 .links {
-	margin-top: 21px;
+	margin-top: 3px;
 	padding-bottom: 0;
 	text-align: center;
 }
@@ -432,10 +455,10 @@ ul.slider li:target {
 	}
 	
 	.about-info {
-		grid-column: 1/10;
+		grid-column: 0;
 		text-align: justify;
 		padding: 0;
-		margin-left: 21px;
+		margin-left: -104px;
 		margin-bottom: 20px;
 	} 
 	.about-info h2 {
@@ -462,17 +485,25 @@ ul.slider li:target {
 	}
 	.descripcion {
 		margin: 83px auto;
-		width: 89vw;
-		height: 50vh;
+		width: 100vw;
+		height: 76vh;
 		padding: 30px;
 	}
+	
 	.descripcion h2{
 		font-size: 1.5em;
 	}
-	
 	.descripcion p {
 		padding-top: 17px;
 		text-align: justify;
+	}
+	.text-slide {
+		grid-column: 1 / 10;
+	}
+
+	.dowload-cv-slider {
+		margin-top: 412px;
+		width: 24em;
 	}
 	
 	ul.slider li {
@@ -487,10 +518,7 @@ ul.slider li:target {
 	}
 	
 	ul.slider li img {
-		margin-top: 30px;
-		width: 100%;
-		height: 59%;
-		object-fit: cover;
+		display:none;
 	}
 	ul.slider li a {
 		width: 100vw;
